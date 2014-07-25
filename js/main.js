@@ -36,7 +36,7 @@ function sendForm() {
 
 		$( "#reportOverlay" ).popup("open");
 		var datastring = $("#reportPostForm").serialize();
-		datastring += '&type=Maintenance&posted=1';
+		datastring += '&type=Security&posted=1';
 
 		console.log(datastring);
 
